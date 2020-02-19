@@ -38,8 +38,8 @@ namespace QuantConnect.Algorithm.CSharp
         /// </summary>
         public override void Initialize()
         {
-            SetStartDate(2013, 01, 01);  //Set Start Date
-            SetEndDate(2014, 01, 01);    //Set End Date
+            SetStartDate(2018, 01, 01);  //Set Start Date
+            SetEndDate(2020, 01, 01);    //Set End Date
             SetCash(100000);             //Set Strategy Cash
 
             // Find more symbols here: http://quantconnect.com/data
